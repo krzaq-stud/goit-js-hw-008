@@ -1,0 +1,17 @@
+Parę klucz-wartość oraz typy danych:
+"name": "Josh" (typ: string)
+"weight": 175 (typ: number)
+"age": 30 (typ: number)
+"eyecolor": "brown" (typ: string)
+"isHappy": true (typ: boolean)
+"cars": ["chevy", "Honda"] (typ: array)
+"favoriteBook": {"title": "the last kingdom", "author": "bernard cornwell", "rating": 8.38} (typ: object)
+
+Wyjaśnienie struktury JSON:
+JSON to format danych używany do przechowywania i przekazywania danych w formie tekstowej.
+Składnia JSON jest podobna do obiektu JavaScript, z kluczami i wartościami, które są oddzielone dwukropkiem.
+Klucze muszą być ciągami tekstowymi ujętymi w cudzysłowy.
+Wartościami mogą być stringi, liczby, obiekty, tablice, wartości boolean oraz null.
+Obiekty JSON mogą być zagnieżdżone, jak w przypadku "favoriteBook", gdzie jest to obiekt wewnątrz obiektu.
+Tablice JSON są listami wartości oddzielonych przecinkami i ujętych w nawiasy kwadratowe.
+JSON jest bardzo wygodny w analizie i przekazywaniu danych, a metoda JSON.parse() jest używana do przekształcania danych JSON na obiekty JavaScript.
